@@ -1,0 +1,14 @@
+//Development Setting
+<VirtualHost *:80>
+	ServerName ebuyshopdev.com
+	ServerAlias www.ebuyshopdev.com
+	DocumentRoot "D:/XAMPP/htdocs/ebuy-development"
+	
+	<Directory D:/XAMPP/htdocs/ebuy-development>
+		Order allow,deny
+		Allow from all
+	</Directory>
+</VirtualHost>
+
+C:\\Windows\System32\drivers\etc\hosts
+127.0.0.1	ebuyshopdev.com www.ebuyshopdev.com http://ebuyshopdev.com
